@@ -7,10 +7,14 @@ body {
     background: linear-gradient(#a7a7a7, #777777); /* Standard syntax */
     font-family: Cambria;
     text-align: center;
-    height: 100%;
 
     font-size: 150%;
     font-size: 1.51vw;
+}
+
+html, body {
+    min-height: 100% !important;
+    height: 100%;
 }
 
 /*Backgrounds*/
