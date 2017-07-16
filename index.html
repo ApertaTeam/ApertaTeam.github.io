@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Aperta</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
-  </head>
-  <body>
-    <p>Site in development.</p>
-  </body>
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>APERTA</title>
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+        <script>
+            function goToLink(link) {
+                if (link !== undefined) {
+                    window.location.href = link;
+                }
+            }
+        </script>
+    </head>
+    
+    <body>
+        <div id="blue_back" >
+
+            <div id="green_back" >
+
+                <div id="logo_image_left"></div>
+                <div id="logo_image_right"></div>
+
+                <div id="gray_back" >
+
+                    <div id="buttons">
+                        <div class="unselectable" id="button" onclick="goToLink('Aperta.html')">
+                            Home
+                        </div>
+                        <div class="unselectable" id="button" onclick="goToLink('Aperta_Products.html')">
+                            Products
+                        </div>
+                        <div class="unselectable" id="button" onclick="goToLink('Aperta_About.html')">
+                            About
+                        </div>
+                        <div class="unselectable" id="button" onclick="goToLink('Aperta_Contact.html')">
+                            Contact
+                        </div>
+                    </div>
+
+                    <p id="header_text">
+                    APERTA
+                    </p>
+                    
+                    <p>
+                    Welcome to the official Aperta website. Here you'll be able to find our contact information, products made by us, who we are, and more. We hope you enjoy yourself here.
+                    </p>
+
+                    <div id="news_main">
+
+                        <p id="news_title">
+                            NEWS FEED
+                        </p>
+
+                        <div id="news_post">
+                            <p id="news_post_date">
+                                31-03-2017
+                            </p>
+
+                            <p id="news_post_text">
+                                Hello and welcome to Aperta's official website.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
