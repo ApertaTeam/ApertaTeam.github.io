@@ -1,2 +1,2 @@
 # ApertaTeam.github.io
-The Aperta team's main github site.
+The official website for Aperta. Learn about us and our products/projects.
