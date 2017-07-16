@@ -23,6 +23,7 @@ body {
     background: -moz-linear-gradient(#a7a7a7, #777777); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#a7a7a7, #777777); /* Standard syntax */
     height: 100%;
+    background-repeat: no-repeat;
 }
 
 #green_back {
@@ -34,6 +35,7 @@ body {
     background: -moz-linear-gradient(#a7a7a7, #777777); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#a7a7a7, #777777); /* Standard syntax */
     height: 100%;
+    background-repeat: no-repeat;
 }
 
 #gray_back {
