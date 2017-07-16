@@ -120,7 +120,7 @@ body {
 
 /*Logo Images*/
 #logo_image_left {
-    background-image: url(Logo_Cut.png);
+    background-image: url("/Logo_Cut.png");
     background-repeat: no-repeat;
     background-position: 100%;
     border-radius: 100%;
@@ -133,7 +133,7 @@ body {
 }
 
 #logo_image_right {
-    background-image: url(Logo_Cut.png);
+    background-image: url("/Logo_Cut.png");
     background-repeat: no-repeat;
     background-position: 100%;
     border-radius: 100%;
