@@ -1,0 +1,3 @@
+[submodule "the-gamebox/games/BumperJumper"]
+	path = the-gamebox/games/BumperJumper
+	url = https://github.com/ApertaTeam/BumperJumper.git
